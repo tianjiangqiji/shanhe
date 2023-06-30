@@ -172,29 +172,29 @@
 <script>
 var c = true;
 function headermenushow(){
-	$('.header-nav').addClass('h-nav-100');
-	$('.h-m-media').addClass('h-m-m-faceout');
-	$('.h-m-m-t span').addClass('h-m-m-t-close');
-	$('.h-m-m-c span').addClass('h-m-m-c-close');
-	$('.h-m-m-b span').addClass('h-m-m-b-close');
-	$('.h-m-m-b span').addClass('h-m-lists');
-	$('.header-nav .menu-lists > ul > li').addClass('menu-lists-show');
-	$('.header-nav .menu-lists > ul > li').addClass('h-m-lists');
-	$('html,body').addClass('no-scroll');
-	$('.h-m-m-hot').fadeOut();
+	$('.header-nav')。addClass('h-nav-100');
+	$('.h-m-media')。addClass('h-m-m-faceout');
+	$('.h-m-m-t span')。addClass('h-m-m-t-close');
+	$('.h-m-m-c span')。addClass('h-m-m-c-close');
+	$('.h-m-m-b span')。addClass('h-m-m-b-close');
+	$('.h-m-m-b span')。addClass('h-m-lists');
+	$('.header-nav .menu-lists > ul > li')。addClass('menu-lists-show');
+	$('.header-nav .menu-lists > ul > li')。addClass('h-m-lists');
+	$('html,body')。addClass('no-scroll');
+	$('.h-m-m-hot')。fadeOut();
 }
 function headermenuhide(){
- $('.header-nav').removeClass('h-nav-100');
-            $('.h-m-media').removeClass('h-m-m-faceout');
-            $('.h-m-m-t span').removeClass('h-m-m-t-close');
-            $('.h-m-m-c span').removeClass('h-m-m-c-close');
-            $('.h-m-m-b span').removeClass('h-m-m-b-close');
-            $('.header-nav .menu-lists > ul > li').removeClass('menu-lists-show');
-            $('.header-nav .menu-lists > ul > li').removeClass('h-m-lists');
-            $('html,body').removeClass('no-scroll');
-            $('.h-m-m-hot').fadeOut();
+ $('.header-nav')。removeClass('h-nav-100');
+            $('.h-m-media')。removeClass('h-m-m-faceout');
+            $('.h-m-m-t span')。removeClass('h-m-m-t-close');
+            $('.h-m-m-c span')。removeClass('h-m-m-c-close');
+            $('.h-m-m-b span')。removeClass('h-m-m-b-close');
+            $('.header-nav .menu-lists > ul > li')。removeClass('menu-lists-show');
+            $('.header-nav .menu-lists > ul > li')。removeClass('h-m-lists');
+            $('html,body')。removeClass('no-scroll');
+            $('.h-m-m-hot')。fadeOut();
 }
-    $('.h-m-menu').on('click',function(){
+    $('.h-m-menu')。于('click'，function(){
         if(c){
             headermenushow();
             c = false;
@@ -205,29 +205,29 @@ function headermenuhide(){
         }
     })
 	var brandstate=false;
-			$(".brandlist-id").on('click',function(){
+			$(".brandlist-id")。于('click'，function(){
 				if(brandstate===false){
-				$(this).addClass('on');
+				$(this)。addClass('on');
 				brandstate=true;
 				}else{
-				$(this).removeClass('on');
+				$(this)。removeClass('on');
 				brandstate=false;
 				}
 				
 			})
-$(".menu-show-fixed").on("click",function(){
-$('html,body').animate({scrollTop: '0px'},100,function(){headermenushow()});
+$(".menu-show-fixed")。于("click"，function(){
+$('html,body')。animate({scrollTop: '0px'}，100，function(){headermenushow()});
 	
 });
-$(".back-top-fixed").on("click",function(){
-	$('html,body').animate({scrollTop: '0px'},300);
+$(".back-top-fixed")。于("click"，function(){
+	$('html,body')。animate({scrollTop: '0px'}，300);
 })
 </script>
 <!--header-->
 <!--banner-->
 <section id="iBanner" class="iBanner">
 <div class="swiper-container swiper-container1 swiper-container-horizontal swiper-container-android">
-	<div class="swiper-wrapper" style="transform: translate3d(-1600px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" style="width: 400px;" data-swiper-slide-index="3">
+	<div class="swiper-wrapper" style="transform: translate3d(-1600px， 0px， 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" style="width: 400px;" data-swiper-slide-index="3">
 
         </div>
     	                <div class="swiper-slide" style="width: 400px;" data-swiper-slide-index="0">
@@ -245,12 +245,12 @@ $(".back-top-fixed").on("click",function(){
 </section>
 
 <script>
-var mySwiper = new Swiper ('.swiper-container1', {
-        loop: true,
-        autoplay:4000,
+var mySwiper = new Swiper ('.swiper-container1'， {
+        loop: true，
+        autoplay:4000，
         //阻止点击冒泡
-        preventLinksPropagation : false,
-        paginationClickable: true,
+        preventLinksPropagation : false，
+        paginationClickable: true，
         pagination: '.swiper-pagination1'
     });
 </script>
@@ -301,7 +301,7 @@ var mySwiper = new Swiper ('.swiper-container1', {
 <div class="zx-con">
 <a href="">立即拨打QQ&nbsp;&nbsp;874736170</a>
 <ul class="clearfix">
-	<a href="https://"><li>电脑端首页</li></a>
+	<a href="https://sh.skyjee.cn/"><li>电脑端首页</li></a>
 	<a target="_blank" href="https://www.douyin.com/user/MS4wLjABAAAAH1q7CNw_xFxAl4LpQEUrmlbyCVx2UrjQrEqD1Y-5lRjNX-wYOt7mTyY6eBsJvuB_"><li>在线报名</li></a>
 	<a target="_blank" href="https://www.douyin.com/user/MS4wLjABAAAAH1q7CNw_xFxAl4LpQEUrmlbyCVx2UrjQrEqD1Y-5lRjNX-wYOt7mTyY6eBsJvuB_"><li>在线咨询</li></a>
 </ul>
@@ -310,14 +310,14 @@ var mySwiper = new Swiper ('.swiper-container1', {
 
 <!--弹出消息-->
 <style type="text/css">
-a{text-decoration:none}
+a{text-decoration:无}
 .dbzx a{ width:50%; display:block; float:left;}
 .dbzx img{ width:100%; display:block; float:left;}
-#LRfloater0{ display: none ! important;}
+#LRfloater0{ display: 无 ! important;}
 .absolute{position: absolute;}
-.swtCenter{display:none;}
+.swtCenter{display:无;}
 .swtCenter {
-		display: none;
+		display: 无;
 		width: 260px;
 		height: 200px;
 		background-color: #FFF;
@@ -361,7 +361,7 @@ var sTimer = setInterval(function() {
 		}
 		clearInterval(sTimer);
 	}
-}, 100);
+}， 100);
 
 function showSwt() {
 	if (is_invite) {
@@ -369,22 +369,22 @@ function showSwt() {
 		is_invite = false;
 	}
 	if (typeof jQuery != "undefined") {
-		$("#swtBox").show(500);
+		$("#swtBox")。show(500);
 	} else {
-		document.getElementById("swtBox").style.display = 'block';
+		document.getElementById("swtBox")。style。display = 'block';
 	}
 }
 
 function hideSwt() {
 	if (typeof jQuery != "undefined") {
-		$("#swtBox").hide(500);
+		$("#swtBox")。hide(500);
 	} else {
-		document.getElementById("swtBox").style.display = 'none';
+		document.getElementById("swtBox")。style。display = 'none';
 	}
 	setTimeout(showSwt, 15000);
 }
 
-setTimeout("showSwt()", 5000);
+setTimeout("showSwt()"， 5000);
 </script>
 
 
